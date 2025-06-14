@@ -7,7 +7,13 @@ authors = [
     { name = "Kasper Junge", email = "kasperjuunge@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "datasets>=3.6.0",
+    "huggingface-hub>=0.33.0",
+    "jupyter>=1.1.1",
+    "pandas>=2.3.0",
+    "python-dotenv>=1.1.0",
+]
 
 [project.scripts]
 hvadvilduhelst = "hvadvilduhelst:main"
