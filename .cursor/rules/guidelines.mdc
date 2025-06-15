@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+The project uses uv. To install env run "uv sync". To add packages run "uv add <package-name>. To run a python script, run "uv run script_name.py".
+
+Put reusable code in the package src/hvadvilduhelst/
+
+
+The dataset is documented in docs/dataset_description.md
+The experiments are documented in docs/experiments.md
+The plan is documented in docs/plan.md
+How to make structured output with OpenAI sdk and pydantic models is documented in docs/structured_output_openai.md
+
+If you want to run a Python script to test something, but it in scripts/ and run it wiht "uv run script_name.py"
